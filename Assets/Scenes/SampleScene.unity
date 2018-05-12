@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
+  m_IndirectSpecularColor: {r: 0.44607484, g: 0.49583554, b: 0.574497, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -171,13 +171,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 170076733}
-  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
+  m_LocalRotation: {x: 0.45026022, y: -0.2091149, z: 0.0002929634, w: 0.8680649}
   m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+  m_LocalEulerAnglesHint: {x: 128.571, y: 144.418, z: 162.469}
 --- !u!1 &282840810
 GameObject:
   m_ObjectHideFlags: 0
@@ -216,6 +216,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RayTracingShader: {fileID: 7200000, guid: e2fd99e5af3966e49904e0a9f3980fc9, type: 3}
   SkyboxTexture: {fileID: 2800000, guid: ace9c485dbad90440a3914a27371e62e, type: 3}
+  DirectionalLight: {fileID: 170076734}
+  SphereRadius: {x: 5, y: 8}
+  SpheresMax: 100
+  SpherePlacementRadius: 100
 --- !u!20 &282840813
 Camera:
   m_ObjectHideFlags: 0
@@ -258,10 +262,10 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 282840810}
-  m_LocalRotation: {x: -0.03576205, y: -0, z: -0, w: 0.9993603}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalRotation: {x: 0.1877752, y: 0.25388148, z: -0.05031422, w: 0.9474984}
+  m_LocalPosition: {x: -78.51, y: 39.84, z: -133.93}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -4.099, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 22.419, y: 30.000002, z: 0}
